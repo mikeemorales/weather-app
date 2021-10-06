@@ -1,6 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 
+// api
 const api = {
   base: "https://api.openweathermap.org/data/2.5/"
 }
@@ -21,6 +22,7 @@ function App() {
     }
   }
 
+  // display date under location
   const dateBuilder = (d) => {
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
       "November", "December"];
@@ -32,6 +34,7 @@ function App() {
     return `${month} ${date}, ${year}`;
   }
 
+  // main section to display data (location, date, temperature in °F, and visibility)
   return (
     <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 80) ? 'app warm' : 'app') : 'app'}>
       <main>
