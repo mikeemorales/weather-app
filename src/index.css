@@ -6,13 +6,15 @@
 }
 
 .app {
-  background-image: url('./assets/clear-day.jpg');
+  background: rgb(91,217,150);
+  background: linear-gradient(180deg, rgba(91,217,150,1) 0%, rgba(43,85,128,1) 100%);
   background-size: cover;
   background-position: bottom;
-  transition: 0.4s ease-out;
+  transition: 2s ease;
 }
 .app.warm {
-  background-image: url('./assets/warm.jpg');
+  background: rgb(228,181,62);
+  background: linear-gradient(180deg, rgba(228,181,62,1) 0%, rgba(128,43,43,1) 100%);
 }
 .app.rain {
   background-image: url('./assets/rain.jpg');
@@ -28,8 +30,8 @@
 }
 
 main {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5));
   min-height: 100vh;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
   padding: 25px;
 }
 
