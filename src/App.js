@@ -36,7 +36,7 @@ function App() {
 
   // main section to display data (location, date, temperature in °F, and visibility)
   return (
-    <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 80) ? 'app warm' : 'app') : 'app'}>
+    <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 75) ? 'app warm' : 'app') : 'app'}>
       <main>
         <div className="search-box">
           <input type="text"
