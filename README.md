@@ -1,11 +1,12 @@
 # Weather App
 - A simple weather app created in React.js
-### live test here:
+- #### live test here:
 - https://react-weather-app-portfolio.herokuapp.com/
 
 ## HOW IT WORKS
-- Enter a location in the search bar (global search, so you may need to put in city and state -- e.g "Long Beach, California") and the data populated will show Location, Date, Temperature (Fahrenheit), and Visibility.
-- Depending on the location's temperature, the background should change from cool to warm. warm is set to temp > 80°F.
+- Enter a location in the search bar and the data populated will show Location, Date, Temperature (Fahrenheit), and Visibility.
+- This is a global search. You may need to include the state or country. e.g => 'Long Beach, California' or 'Mexico City, MX'.
+- Depending on the location's temperature, the background should change from cool to warm. warm is set to temp >= 75°F.
 
 ## STACK
 - React.js
