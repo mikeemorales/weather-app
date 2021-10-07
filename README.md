@@ -1,6 +1,7 @@
 # Weather App
 - A simple weather app created in React.js
-- #### live test here:
+
+### live test here:
 - https://react-weather-app-portfolio.herokuapp.com/
 
 ## HOW IT WORKS
