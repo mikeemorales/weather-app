@@ -1,4 +1,5 @@
 import './App.css';
+import logo from './assets/weatherly.png';
 import { useState } from 'react';
 
 // api
@@ -45,6 +46,11 @@ function App() {
             onChange={e => setQuery(e.target.value)}
             onKeyPress={search}/>
         </div>
+
+        <div className="logo">
+            <img src={logo} alt="logo"/>
+        </div>
+
         {(typeof weather.main != "undefined") ? (
           <div>
             <div className="location-box">

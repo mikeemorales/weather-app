@@ -16,7 +16,7 @@
   background: rgb(228,181,62);
   background: linear-gradient(180deg, rgba(228,181,62,1) 0%, rgba(128,43,43,1) 100%);
 }
-.app.rain {
+/* .app.rain {
   background-image: url('./assets/rain.jpg');
 }
 .app.clear-night {
@@ -27,7 +27,7 @@
 }
 .app.cloud {
   background-image: url('./assets/cloud.jpg');
-}
+} */
 
 main {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5));
@@ -110,4 +110,12 @@ main {
   font-size: 48px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
 }
